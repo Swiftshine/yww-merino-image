@@ -1,0 +1,39 @@
+{
+    "MapObjSet": {
+        "egg_box": {
+            "display_image": "egg_box.png"
+        },
+        "knit_pipe": {
+            "display_image": "pipe_top_green.png",
+            "variants": [
+                {
+                    "copy": {
+                        "data_type": "float",
+                        "slot": 0
+                    },
+                    "to": "rotation"
+                }
+            ]
+        },
+        "question_cloud_wing": {
+            "display_image": "question_cloud.png",
+            "variants": [
+                {
+                    "when": {
+                        "data_type": "bool",
+                        "slot": 0,
+                        "expected_value": true
+                    },
+                    "then": {
+                        "display_image": "question_cloud_hidden.png"
+                    }
+                }
+            ]
+        }
+    },
+    "MapLocator": {
+        "PIPE_PARTS": {
+            "display_image": "pipe_parts_green.png"
+        }
+    }
+}
