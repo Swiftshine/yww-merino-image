@@ -18,6 +18,9 @@
                 }
             ]
         },
+        "suspension_bridge_board": {
+            "display_image": "suspension_bridge_board.png"
+        },
         "question_cloud_wing": {
             "display_image": "question_cloud.png",
             "variants": [
