@@ -6,6 +6,62 @@
         "egg_flower": {
             "display_image": "egg_flower.png"
         },
+        "frame_windmill": {
+            "display_image": "frame_windmill.png",
+            "anchor": "bottom_center",
+            "variants": [
+                {
+                    "when": {
+                        "data_type": "int",
+                        "slot": 0,
+                        "expected_value": 1
+                    },
+                    "then": {
+                        "display_image": "frame_windmill_filled_1.png"
+                    }
+                },
+                {
+                    "when": {
+                        "data_type": "int",
+                        "slot": 0,
+                        "expected_value": 2
+                    },
+                    "then": {
+                        "display_image": "frame_windmill_filled_2.png"
+                    }
+                },
+                {
+                    "when": {
+                        "data_type": "int",
+                        "slot": 0,
+                        "expected_value": 3
+                    },
+                    "then": {
+                        "display_image": "frame_windmill_filled_3.png"
+                    }
+                },
+                {
+                    "when": {
+                        "data_type": "int",
+                        "slot": 0,
+                        "expected_value": 4
+                    },
+                    "then": {
+                        "display_image": "frame_windmill_filled_all.png"
+                    }
+                },
+                {
+                    "when": {
+                        "data_type": "int",
+                        "slot": 0,
+                        "expected_value": 5
+                    },
+                    "then": {
+                        "display_image": "frame_windmill_filled_5.png"
+                    }
+                }
+            ]
+        },
         "knit_pipe": {
             "display_image": "pipe_top_green.png",
             "variants": [
