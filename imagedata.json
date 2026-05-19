@@ -93,6 +93,11 @@
             ]
         }
     },
+    "MapItemSet": {
+        "craft_wool": {
+            "display_image": "wonder_wool.png"
+        }
+    },
     "MapLocator": {
         "PIPE_PARTS": {
             "display_image": "pipe_parts_green.png"
